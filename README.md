@@ -17,6 +17,6 @@ dependencyResolutionManagement {
 Add the dependency
 ```
 dependencies {
-    implementation("com.github.CycoByte:BitVaultGenerator:Tag")
+    implementation("com.github.CycoByte:BitVaultGenerator:main-SNAPSHOT")
 }
 ```
