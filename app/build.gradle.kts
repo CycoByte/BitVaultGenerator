@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "eu.bitpods.bitvault.generator"
+    namespace = "eu.bitpods.bitvault.main"
     compileSdk = 36
 
     defaultConfig {

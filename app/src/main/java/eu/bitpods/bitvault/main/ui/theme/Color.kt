@@ -1,4 +1,4 @@
-package eu.bitpods.bitvault.generator.ui.theme
+package eu.bitpods.bitvault.main.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

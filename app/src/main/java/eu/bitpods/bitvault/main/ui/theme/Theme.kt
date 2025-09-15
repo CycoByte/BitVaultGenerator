@@ -1,6 +1,5 @@
-package eu.bitpods.bitvault.generator.ui.theme
+package eu.bitpods.bitvault.main.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
