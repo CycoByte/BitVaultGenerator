@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import eu.bitpods.bitvault.main.ui.theme.BitVaultGeneratorTheme
+import eu.bitpods.bitvault.passwordgenerator.Generator
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
             BitVaultGeneratorTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = Generator().testValue,
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +43,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     BitVaultGeneratorTheme {
-        Greeting("Android")
+        Greeting(Generator().testValue)
     }
 }
