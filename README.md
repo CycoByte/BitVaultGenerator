@@ -1,0 +1,2 @@
+# eu.bitpods.generate
+generator
