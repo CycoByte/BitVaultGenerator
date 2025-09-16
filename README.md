@@ -3,7 +3,7 @@
 - Generate random password
 - Generate random passphrases
 
-## Use
+## Import
 Add jitpack in settings.gradle.kts
 ```
 dependencyResolutionManagement {
@@ -17,8 +17,24 @@ dependencyResolutionManagement {
 Add the dependency
 ```
 dependencies {
-    implementation("com.github.CycoByte:BitVaultGenerator:main-SNAPSHOT")
+    implementation("com.github.CycoByte:BitVaultGenerator:vX.Y.Z")
 }
+```
+## Use example
+- passphrase
+```
+PassphraseGenerator.generate(
+    numbers = true,
+    words = 3
+)
+```
+- password
+```
+PasswordGenerator.generate(
+    numbers = true,
+    specialCharacters = true,
+    maxLength = 20
+)
 ```
 
 Release
