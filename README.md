@@ -20,3 +20,8 @@ dependencies {
     implementation("com.github.CycoByte:BitVaultGenerator:main-SNAPSHOT")
 }
 ```
+
+Release
+- `git pull origin main`
+- `git tag -a release-v1.2.3 -m "Release version demo"` replace version with correct version number following release versioning guidelines
+- `git push origin release-v1.2.3` replace version with correct version number following release versioning guidelines
